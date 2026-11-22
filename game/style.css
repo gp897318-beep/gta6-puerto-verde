@@ -1,4 +1,5 @@
 /* PUERTO VERDE HUD — sun-soaked dusk UI, all panels DOM over the 3D canvas. */
+/* Panels: mission, dispatch, weapons, minimap, health/armor, speed, dialogue, radio, crew. */
 html, body { margin: 0; height: 100%; overflow: hidden; background: #1a1030;
   font-family: 'Segoe UI', Arial, Helvetica, sans-serif; color: #fff; }
 #game { position: fixed; inset: 0; width: 100%; height: 100%; display: block; }

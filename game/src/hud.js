@@ -1,6 +1,7 @@
 // HUD for Puerto Verde: mission panel, clock/money/wanted, police dispatch,
 // weapon slots, minimap, health/armor, speed, dialogue, radio, crew abilities,
 // district standing, weather, garage upgrades and package count.
+// The minimap is a 2D canvas; the rest of the HUD is DOM over the 3D view.
 import { CITY, streetNameAt, districtAt } from './city.js';
 
 const WEAPONS = [

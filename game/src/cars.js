@@ -1,5 +1,6 @@
 // Cars for Puerto Verde: low-poly car factory, player driving physics,
 // NPC traffic that follows the road grid, and parked cars to steal.
+// Seven models (Rukan Pelo GT to Dune Pickup); the player can steal any parked or NPC car.
 import { mulberry32, pick, range, clamp, angleLerp, dist2d } from './random.js';
 import { CITY } from './city.js';
 

@@ -7,6 +7,7 @@
 // (wanted stars, chases, helicopter), run 6 story jobs for fixer Mira Kesang, on foot and by car
 // in a sun-soaked coastal city. Put 3 or 4 PNG or JPEG screenshots in screenshots/ (the first by
 // name is the cover) and run it.
+// Recorded build: the program runs twice and both runs must be byte-identical.
 //
 // Serve it locally with `node serve.ts`, then open http://localhost:8080.
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:

@@ -1,6 +1,7 @@
 // Missions for Puerto Verde: a 10-job story arc handed out by fixer
 // Mira Kesang. Each mission has an objective marker, a timer, dialogue
 // and a payout. Completing one unlocks the next.
+// Ten jobs (FIRST LIGHT to LAST LIGHT), unlocked in order with payouts and timers.
 import { dist2d } from './random.js';
 
 export const FIXER = {

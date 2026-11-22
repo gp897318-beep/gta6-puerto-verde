@@ -1,5 +1,6 @@
 // Police for Puerto Verde: wanted level 1-5, patrol units that chase,
 // ram, flank and roadblock, plus a helicopter with a spotlight at 3+ stars.
+// At 5 stars SWAT vans join the hunt: faster, heavier, harder rams.
 import { mulberry32, pick, clamp, angleLerp, dist2d } from './random.js';
 import { makeCarMesh, Car } from './cars.js';
 

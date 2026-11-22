@@ -1,5 +1,6 @@
 // WebAudio synth sound for Puerto Verde: engine hum, sirens, radio,
 // gunshots, pickups and mission stings. No audio files, all synthesized.
+// Everything is synthesized with WebAudio — no audio files are loaded.
 export class AudioEngine {
   constructor() {
     this.ctx = null;

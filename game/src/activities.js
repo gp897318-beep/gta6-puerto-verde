@@ -1,6 +1,7 @@
 // Side activities for Puerto Verde: street races, taxi fares, courier
 // deliveries and hidden packages. All playable, repeatable, and paying
 // cash + district standing. Markers glow in the world; press T nearby.
+// Races, taxi, courier and hidden packages all pay cash and district standing.
 import { dist2d } from './random.js';
 
 export const MARKERS = [

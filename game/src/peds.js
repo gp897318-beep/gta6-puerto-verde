@@ -1,5 +1,6 @@
 // Pedestrians for Puerto Verde: walkers on sidewalks who flee from
 // speeding cars and scatter when the player shoves or shoots near them.
+// Walkers use the sidewalks and scatter when a car speeds past or shots ring out.
 import { mulberry32, pick, range, dist2d } from './random.js';
 
 const SHIRTS = [0xe86a5a, 0x5a9fe8, 0x7ad86a, 0xe8d25a, 0xb06ae8, 0xe8e8e8, 0x3a3a44, 0xff9a5a];

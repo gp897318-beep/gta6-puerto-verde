@@ -1,6 +1,7 @@
 // Screenshot staging for Puerto Verde.
 // ?shot=cover|drive|mission|menu stages the matching scene, then the
 // main loop paints twice and sets window.__shotReady.
+// Staged scenes freeze the world so each screenshot is deterministic per seed.
 export function stageShot(game, shot) {
   const g = game;
   if (shot === 'menu') {

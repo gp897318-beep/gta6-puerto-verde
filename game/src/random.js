@@ -1,5 +1,6 @@
 // Seeded random number generator for Puerto Verde.
 // Deterministic per seed so screenshots and replays match.
+// mulberry32 gives a reproducible stream; pick/range/clamp are the helpers.
 export function mulberry32(seed) {
   let a = seed >>> 0;
   return function next() {

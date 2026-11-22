@@ -3,6 +3,7 @@
 // a 10-job story, side activities (races, taxi, deliveries, hidden packages),
 // district standing, day/night cycle, rain, garage upgrades, combat,
 // HUD + minimap, start screen and saves.
+// The loop runs on requestAnimationFrame: update(dt), render, then HUD refresh.
 //
 // ?seed=N fixes the world. ?shot=cover|drive|mission|menu stages that scene
 // instead of free play, paints it twice and sets window.__shotReady.

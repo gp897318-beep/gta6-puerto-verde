@@ -1,5 +1,6 @@
 // Keyboard + mouse input for Puerto Verde.
 // Tracks held keys, edge-triggered presses, and mouse clicks.
+// Keys are lowercased single chars; arrows and Space are kept from scrolling the page.
 export class Input {
   constructor() {
     this.keys = new Set();

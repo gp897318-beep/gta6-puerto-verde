@@ -1,6 +1,7 @@
 // Puerto Verde city builder: coastal grid city at golden hour.
 // Districts: Marina Beach (east, sea), Downtown (centre), Harbor (south),
 // Palm Court suburb (north-west). Low-poly stylized: boxes, cylinders, palms.
+// The layout is deterministic per seed, so the same seed replays the same streets.
 import { mulberry32, pick, range, intRange } from './random.js';
 
 export const CITY = {
